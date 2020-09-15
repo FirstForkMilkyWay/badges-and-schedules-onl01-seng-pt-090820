@@ -24,6 +24,7 @@ def printer(results)
   result2 = assign_rooms(results)
   result2.each do |x|
     puts x 
+    binding.pry
   end 
 end 
 
